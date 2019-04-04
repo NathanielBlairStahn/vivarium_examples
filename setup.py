@@ -4,12 +4,11 @@ from setuptools import setup, find_packages
 
 
 if __name__ == "__main__":
-
     setup(
         name='vivarium_examples',
         version='1.0',
         description="Examples of simulations built with vivarium",
-        author='Nathaniel Blair-Stahn'  # YOUR NAME HERE,
+        author='Nathaniel Blair-Stahn',  # YOUR NAME HERE,
 
         package_dir={'': 'src'},
         packages=find_packages(where='src'),
